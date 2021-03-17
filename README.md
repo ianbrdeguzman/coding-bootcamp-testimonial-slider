@@ -1,6 +1,6 @@
 # Frontend Mentor - Coding bootcamp testimonials slider
 
-Check it out [here!]()
+Check it out [here!](https://ianbrdeguzman.github.io/coding-bootcamp-testimonial-slider/)
 
 ## Created using:
 
