@@ -60,7 +60,9 @@ body {
     }
 }
 section {
-    p {
+    h2 {
+        font-weight: 300;
+        font-size: 1rem;
         padding: 0 1rem;
     }
     div {
@@ -96,7 +98,7 @@ section {
         margin: 60px auto 4rem auto;
     }
     section {
-        p {
+        h2 {
             padding: 0 2rem;
         }
     }
@@ -109,6 +111,9 @@ section {
     }
     section {
         margin-top: 6rem;
+        h2 {
+            font-size: 1.1rem;
+        }
         div {
             margin-top: 2rem;
         }
@@ -124,8 +129,12 @@ section {
         margin: 80px auto 5rem auto;
     }
     section {
-        p {
+        h2 {
+            font-size: 1.1rem;
             padding: 0 2rem;
+        }
+        div {
+            margin-top: 2rem;
         }
     }
 }
@@ -141,7 +150,8 @@ section {
         height: 510px;
     }
     section {
-        p {
+        h2 {
+            font-size: 1.5rem;
             padding: 0 4rem;
         }
     }
@@ -170,6 +180,12 @@ section {
         top: 50%;
         left: 0;
         transform: translateY(-50%);
+        h2 {
+            font-size: 1.8rem;
+        }
+        div {
+            margin-left: 4rem;
+        }
     }
 }
 @media (min-width: 1024px) and (min-height: 1366px) {
@@ -195,6 +211,7 @@ section {
     section {
         div {
             margin-top: 2rem;
+            margin-left: 0;
             padding: 0 4rem;
             display: flex;
             p:first-child {

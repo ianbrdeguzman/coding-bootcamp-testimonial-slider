@@ -66,7 +66,9 @@ body {
   outline: none;
 }
 
-section p {
+section h2 {
+  font-weight: 300;
+  font-size: 1rem;
   padding: 0 1rem;
 }
 
@@ -104,7 +106,7 @@ section div p:last-child {
   .img-container {
     margin: 60px auto 4rem auto;
   }
-  section p {
+  section h2 {
     padding: 0 2rem;
   }
 }
@@ -117,6 +119,9 @@ section div p:last-child {
   }
   section {
     margin-top: 6rem;
+  }
+  section h2 {
+    font-size: 1.1rem;
   }
   section div {
     margin-top: 2rem;
@@ -132,8 +137,12 @@ section div p:last-child {
   .img-container {
     margin: 80px auto 5rem auto;
   }
-  section p {
+  section h2 {
+    font-size: 1.1rem;
     padding: 0 2rem;
+  }
+  section div {
+    margin-top: 2rem;
   }
 }
 
@@ -148,7 +157,8 @@ section div p:last-child {
     width: 510px;
     height: 510px;
   }
-  section p {
+  section h2 {
+    font-size: 1.5rem;
     padding: 0 4rem;
   }
 }
@@ -180,6 +190,12 @@ section div p:last-child {
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
+  section h2 {
+    font-size: 1.8rem;
+  }
+  section div {
+    margin-left: 4rem;
+  }
 }
 
 @media (min-width: 1024px) and (min-height: 1366px) {
@@ -205,6 +221,7 @@ section div p:last-child {
   }
   section div {
     margin-top: 2rem;
+    margin-left: 0;
     padding: 0 4rem;
     display: -webkit-box;
     display: -ms-flexbox;
